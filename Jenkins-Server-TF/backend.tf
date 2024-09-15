@@ -2,7 +2,7 @@ terraform {
   backend "s3" {
     bucket         = "my-ews-bucket11"
     region         = "us-east-1"
-    key            = "Tetris/EKS-TF/terraform.tfstate"
+    key            = "Tetris/Jenkins-Server/terraform.tfstate"
     dynamodb_table = "Lock-Files"
     encrypt        = true
   }
